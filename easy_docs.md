@@ -41,7 +41,9 @@ This command does two things for me. It saves a backup copy of my directions to 
 
   clone down the repository. 
 
-3. Now you need to start writing an article.  Here is the template. 
+3. Now you have the program. In this program, go to the articles folder.  Make a new file.  This file has to have a name like this: my-new-post.markdown.  The important parts are that each word is lower case, each word is separated by dashes, and it ends with .markdown.
+
+ Now you need to start writing an article. Below is the template.  Use this template to write the article. As you write the article, make sure to save your article into the articles folder.  
 
 ### Article Template
 
@@ -64,6 +66,9 @@ Every article is a markdown file with some meta-data at the top of the file.
 
     More content goes here.
 
+Use this article template.  This makes putting the article on the web very easy.  
+The article is written in markdown.  Markdown is very simple, and you are able to see how to use it [here](http://chronicle.com/blogs/profhacker/markdown-the-syntax-you-probably-already-know/35295)  
+
 ### Author format
 
 Every author has a markdown file located in `authors` folder. You should name this file by your name and surname `Name Surname.markdown`.
@@ -75,3 +80,10 @@ Every author has a markdown file located in `authors` folder. You should name th
     Location: City, State, Country
 
     A few words about you.
+
+4. Now that you made a draft of an article, we are going to save it. Because you cloned the repository, the folder General Blog is 'under version control.' Being under version control is like having every file you see be the top paper on a stack of papers.  The papers lower on the stack are old versions of that file.  With version control, you can go through the stack, see old versions, and go back to them. 
+
+Because you made a new article, we need to make a new space for a stack so that our 'version control system' can start keeping track each draft of this article as we stick it on the stack.  This new article is going to be the first 'piece of paper' on that stack. So the first thing we need to do is tell git, our version control manager, to stick the new article on the new stack.  We do this with the command 
+
+   git add .
+   git commit. 
