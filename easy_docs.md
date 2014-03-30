@@ -33,5 +33,16 @@ If I do steps 2 through 4, my process makes automatic backups, saves everything,
 
 This command does two things for me. It saves a backup copy of my directions to a place called Github.  I have a system set up so that this command also sends a copy to my public blog.  My blog is smart and knows that if I send it a new set of directions that were made with my special template, I want those directions to be a new post on my website. So it posts those directions. Five seconds after I say 'git push,'' I have a new post on my website.
 
+#How to set up this process
+
+1. Let us get the blog software.  Go to [General Blog](https://github.com/tararoys/General_Blog). This is the same blog software I use for my website, (tararoys.com)[http://tararoys.com/].  This general blog is a blank blog that we are going to use to start a new blog project. 
+
+2. You will need to copy this blog. I am going to assume that you have some knowlege of the command line and of git.  If you are do not know these things, please contact me and I will take the time to make instructions that people who don't use git are able to follow. 
+
+  clone down the repository. 
+
+3. 
+
+
 
 
