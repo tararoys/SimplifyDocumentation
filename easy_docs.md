@@ -41,8 +41,37 @@ This command does two things for me. It saves a backup copy of my directions to 
 
   clone down the repository. 
 
-3. 
+3. Now you need to start writing an article.  Here is the template. 
 
+### Article Template
 
+Every article is a markdown file with some meta-data at the top of the file.
 
+    Title: Control Flow in Node Part II
+    Author: Tim Caswell
+    Date: Thu Feb 04 2010 02:24:35 GMT-0600 (CST)
+    Node: v0.1.91
 
+    I had so much fun writing the last article on control flow, that I decided to...
+
+    ## First section: Display JavaScript files
+
+    * display contents of external JavaScript file (path is relative to .markdown file)
+    <test-code/test-file.js>
+
+    * display contents of external JavaScript file and evaluate its contents
+    <test-code/evaluate-file.js*>
+
+    More content goes here.
+
+### Author format
+
+Every author has a markdown file located in `authors` folder. You should name this file by your name and surname `Name Surname.markdown`.
+
+    Github:   your_github_account
+    Email:    your_email@domain.com
+    Homepage: http://yourhomepage.com
+    Twitter:  your_twitter_account
+    Location: City, State, Country
+
+    A few words about you.
