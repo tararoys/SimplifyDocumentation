@@ -9,7 +9,7 @@ The things that are not simple are
 
 I have a system that does all of the hard things with three commands. I do not spend hours making backup copies, making corrections, or puting my work online. I spend 10 seconds.  
 
-This is how my process works:
+#This is how my process works:
 
 1. I make a set of directions using my special template.  
 2. I put my new set of directions in a the 'Articles' folder in my "blog" file. 
@@ -19,7 +19,9 @@ This is how my process works:
 
 4. I type git push
 
-If I do all of those things, my process makes automatic backups, saves everything, and publishes it to my blog on the web. 
+If I do steps 2 through 4, my process makes automatic backups, saves everything, and publishes it to my blog on the web. This turns an hours-long process into something that takes 30 seconds. 
+
+#What the steps in the process do
 
 1. The template is important because if I use this template, I am able to publish my blog in seconds. I will not have to make changes to the format. I do not have to take hours to make changes so that I can put my directions on the internet.
 2. Putting the directions in the articles folder is important so that my software knows where to go looking for new directions. 
