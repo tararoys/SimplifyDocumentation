@@ -85,5 +85,11 @@ Every author has a markdown file located in `authors` folder. You should name th
 
 Because you made a new article, we need to make a new space for a stack so that our 'version control system' can start keeping track each draft of this article as we stick it on the stack.  This new article is going to be the first 'piece of paper' on that stack. So the first thing we need to do is tell git, our version control manager, to stick the new article on the new stack.  We do this with the command 
 
-   git add . && git commit -v 
+   git add . && git commit -m 'NOTE ABOUT WHAT I WAS WRITING'
+
+A note about the command: The words in capital letters between the ' ' are a place where you can write a note about the draft you are saving. I like to make good notes because in the future it will help  me look for the draft I need days or weeks from now.
+
+After you do this command, you now have put the draft on the top of your stack of drafts. 
+
+5. 
 
