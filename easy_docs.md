@@ -11,13 +11,19 @@ I have a system that does all of the hard things with three commands. I do not s
 
 This is how my process works:
 
-1. I make a set of directions using my special template.  If I use this template, I am able to publish my blog in seconds. I will not have to make changes to the format. I do not have to take hours to make changes so that I can put my directions on the internet.  
+1. I make a set of directions using my special template.  
 2. I put my new set of directions in a the 'Articles' folder in my "blog" file. 
 3. I go to the command line. I type
      
      git add .  && git commit -v 
 
-This command is like a better version of saving a Microsoft word document. When you go to save a Microsoft Word document, it saves over your old set of directions.  If you make a mistake, you are not able to go back to the old version.  If you save with this command, however, it saves a new copy of your directions, and keeps all of the old versions.  it's like the computer keeps every draft of you directions in a stack of papers. The oldest version is on the bottom of the stack of papers. When you save a new version, you stick it on the top of the stack.  You are able to always go back to the old versions because they are still there, under the new version.  
+4. I type git push
+
+If I do all of those things, my process makes automatic backups, saves everything, and publishes it to my blog on the web. 
+
+1. The template is important because if I use this template, I am able to publish my blog in seconds. I will not have to make changes to the format. I do not have to take hours to make changes so that I can put my directions on the internet.
+2. Putting the directions in the articles folder is important so that my software knows where to go looking for new directions. 
+3. The git add . && git commit- v command is important because it saves and backs up your work. This command is like a better version of saving a Microsoft word document. When you go to save a Microsoft Word document, it saves over your old set of directions.  If you make a mistake, you are not able to go back to the old version.  If you save with this command, however, it saves a new copy of your directions, and keeps all of the old versions.  it's like the computer keeps every draft of you directions in a stack of papers. The oldest version is on the bottom of the stack of papers. When you save a new version, you stick it on the top of the stack.  You are able to always go back to the old versions because they are still there, under the new version.  
 
 4. Now, for the final part. 
     
